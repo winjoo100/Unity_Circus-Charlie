@@ -9,18 +9,11 @@ public class FontColorChange : MonoBehaviour
 
     private int currentIndex = 0;
 
-
     // Start is called before the first frame update
     void Start()
     {
         // 1초마다 ChnageColor 함수를 호출합니다.
         InvokeRepeating("ChangeColor", 0f, 0.5f);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     private void ChangeColor()

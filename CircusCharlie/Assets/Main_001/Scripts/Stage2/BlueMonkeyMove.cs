@@ -12,12 +12,6 @@ public class BlueMonkeyMove : MonoBehaviour
         blueMonkeyRigid = GetComponent<Rigidbody2D>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // 일반 원숭이랑 충돌하면,
